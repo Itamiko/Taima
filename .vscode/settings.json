@@ -1,0 +1,33 @@
+{
+	// internal settings
+	"editor.rulers": [80],
+	// microsoft c/c++ extension setings
+    "C_Cpp.clang_format_fallbackStyle": "",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c11",
+	"C_Cpp.default.intelliSenseMode": "gcc-x64",
+	"C_Cpp.loggingLevel": "Debug",
+	"discord.workspaceElapsedTime": true,
+	"C_Cpp.autocomplete": "Disabled",
+	"C_Cpp.formatting": "Disabled",
+	"C_Cpp.errorSquiggles": "Disabled",
+	"C_Cpp.intelliSenseEngine": "Disabled",
+	//ccls
+	"ccls.launch.command": "/usr/bin/ccls",
+	"ccls.cache.directory": "${workspaceFolder}/.ccls-cache/",
+	"ccls.highlighting.enabled.types": true,
+	"ccls.highlighting.enabled.freeStandingFunctions": true,
+	"ccls.highlighting.enabled.memberFunctions": true,
+	"ccls.highlighting.enabled.freeStandingVariables": true,
+	"ccls.highlighting.enabled.memberVariables": true,
+	"ccls.highlighting.enabled.namespaces": true,
+	"ccls.highlighting.enabled.macros": true,
+	"ccls.highlighting.enabled.enums": true,
+	"ccls.highlighting.enabled.typeAliases": true,
+	"ccls.highlighting.enabled.enumConstants": true,
+	"ccls.highlighting.enabled.staticMemberFunctions": true,
+	"ccls.highlighting.enabled.parameters": true,
+	"ccls.highlighting.enabled.templateParameters": true,
+	"ccls.highlighting.enabled.staticMemberVariables": true,
+	"ccls.highlighting.enabled.globalVariables": true,
+}

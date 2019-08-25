@@ -1,16 +1,6 @@
 {
-	// internal settings
 	"editor.rulers": [80],
-	// microsoft c/c++ extension setings
-<<<<<<< HEAD
-	"C_Cpp.clang_format_fallbackStyle": "",
-	"C_Cpp.default.cppStandard": "c++17",
 	"C_Cpp.default.cStandard": "c11",
-=======
-    "C_Cpp.clang_format_fallbackStyle": "",
-    "C_Cpp.default.cppStandard": "c++17",
-    "C_Cpp.default.cStandard": "c11",
->>>>>>> 7edc16890637aa9252ff5d61ae6cb9fc0f27f181
 	"C_Cpp.default.intelliSenseMode": "gcc-x64",
 	"C_Cpp.loggingLevel": "Debug",
 	"discord.workspaceElapsedTime": true,
@@ -18,7 +8,6 @@
 	"C_Cpp.formatting": "Disabled",
 	"C_Cpp.errorSquiggles": "Disabled",
 	"C_Cpp.intelliSenseEngine": "Disabled",
-	//ccls
 	"ccls.launch.command": "/usr/bin/ccls",
 	"ccls.cache.directory": "${workspaceFolder}/.ccls-cache/",
 	"ccls.highlighting.enabled.types": true,
@@ -35,9 +24,5 @@
 	"ccls.highlighting.enabled.parameters": true,
 	"ccls.highlighting.enabled.templateParameters": true,
 	"ccls.highlighting.enabled.staticMemberVariables": true,
-<<<<<<< HEAD
 	"ccls.highlighting.enabled.globalVariables": true
-=======
-	"ccls.highlighting.enabled.globalVariables": true,
->>>>>>> 7edc16890637aa9252ff5d61ae6cb9fc0f27f181
 }

@@ -1,0 +1,10 @@
+.ccls-cache
+compile_commands.json
+build
+debug
+release
+Build
+Debug
+Release
+.vscode
+.idea

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15.2)
-project (Taima LANGUAGES CXX)
+project (Taima LANGUAGES C)
 
 # Sources for the executable are specified at end of CMakeLists.txt
 add_executable(Taima "")
@@ -9,7 +9,7 @@ add_executable(Taima "")
 if(CMAKE_BUILD_TYPE MATCHES Release)
 	message(STATUS "Building release")
 	set(default_build_type "Release")
-	set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -s")
+	set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -s")
 endif()
 
 if(CMAKE_BUILD_TYPE MATCHES Debug)
@@ -26,9 +26,9 @@ endif()
 
 ### Compile options
 # Enable C++17 (Required)
-set_property(TARGET Taima PROPERTY CXX_STANDARD 17)
-set_property(TARGET Taima PROPERTY CXX_STANDARD_REQUIRED ON)
-set_property(TARGET Taima PROPERTY CXX_EXTENSIONS OFF)
+set_property(TARGET Taima PROPERTY C_STANDARD 11)
+set_property(TARGET Taima PROPERTY C_STANDARD_REQUIRED ON)
+set_property(TARGET Taima PROPERTY C_EXTENSIONS OFF)
 
 ### Includes
 target_include_directories(Taima PRIVATE src)
@@ -36,5 +36,5 @@ target_include_directories(Taima PRIVATE include)
 
 ### Sources
 target_sources(Taima PRIVATE
-	src/main.cxx
+	src/main.c
 )

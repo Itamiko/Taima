@@ -6,5 +6,5 @@ a simple timer application for linux
 ```bash
 cmake -H. -G Ninja -Brelease -DCMAKE_BUILD_TYPE=Release
 ninja -C release
-./release/Taima
+./release/taima
 ```

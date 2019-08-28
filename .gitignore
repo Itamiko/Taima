@@ -7,3 +7,5 @@ Build
 Debug
 Release
 .idea
+cmake-build-debug
+scripts
